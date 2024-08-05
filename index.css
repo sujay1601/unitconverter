@@ -1,0 +1,50 @@
+body {
+    margin: 50px;
+    text-align: center;
+}
+
+.hero {
+    background: #6943FF;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+.section #length-el,
+.section #volume-el,
+.section #kilogram-el {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#input-el {
+    width: 50px;
+    padding: 15px;
+    margin: auto;
+    background-color: #6943FF;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#convert-btn {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+}
